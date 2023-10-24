@@ -296,10 +296,10 @@ h6 {
     line-height: 36px;
   }
 
-  #hero p { /*ajuda os icones*/
-    margin-top: 40px;
+  #hero p {
+    margin-top: 10px;
     font-size: 20px;
-    line-height: 15px;
+    line-height: 8px;
   }
 }
 
