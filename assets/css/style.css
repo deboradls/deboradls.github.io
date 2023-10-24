@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+hqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -48,57 +48,16 @@ h6 {
   line-height: 0;
 }
 
-
 .back-to-top:hover {
   background: #FF69B4;
   color: #fff;
 }
-
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-/*
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #FF69B4;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-*/
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -311,7 +270,7 @@ h6 {
 }
 
 #hero .social-links {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 #hero .social-links a {
@@ -324,7 +283,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #FF69B4;
+  color: #FF69B4; /*quando passa o mouse*/
 }
 
 @media (max-width: 992px) {
