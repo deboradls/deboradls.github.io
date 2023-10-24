@@ -48,12 +48,12 @@ h6 {
   line-height: 0;
 }
 
-/*
+
 .back-to-top:hover {
   background: #FF69B4;
   color: #fff;
 }
-*/
+
 
 .back-to-top.active {
   visibility: visible;
@@ -64,7 +64,7 @@ h6 {
 # Preloader
 --------------------------------------------------------------*/
 
-/*
+
 #preloader {
   position: fixed;
   top: 0;
@@ -99,7 +99,7 @@ h6 {
     transform: rotate(360deg);
   }
 }
-*/
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
