@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 h4,
-hqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa5,
+h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -280,6 +280,7 @@ h6 {
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
+  padding-right: 80;
 }
 
 #hero .social-links a:hover {
