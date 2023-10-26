@@ -259,7 +259,7 @@ h6 {
 
 #hero p {
   color: #45505b;
-  margin: 0px 0 0 0;
+  margin: 0px 0 3 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -294,12 +294,13 @@ h6 {
 
   #hero h1 {
     font-size: 32px;
-    line-height: 36px;
+    line-height: 0px;
     justify-content: center;
+   
   }
 
   #hero p {
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 20px; /*hi, i'm developer*/
     line-height: 25px;
   }
@@ -308,7 +309,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3px;
+    margin-top: px;
     margin-right: 5px;
     margin-left: 5px;
   }
