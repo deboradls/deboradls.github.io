@@ -259,7 +259,7 @@ h6 {
 
 #hero p {
   color: #45505b;
-  margin: 15px 0 0 0;
+  margin: 0px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -270,8 +270,7 @@ h6 {
 }
 
 #hero .social-links {
-   center;
-  margin-top: 5px;
+  margin-top: px;
 }
 
 #hero .social-links a {
@@ -281,7 +280,7 @@ h6 {
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
-  padding-right: 80;
+
 }
 
 #hero .social-links a:hover {
@@ -296,12 +295,22 @@ h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    justify-content: center;
   }
 
   #hero p {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 20px; /*hi, i'm developer*/
-    line-height: 10px;
+    line-height: 25px;
+  }
+  
+  #hero .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
@@ -388,6 +397,12 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 992px) {
+  .mobile-center {
+  text-align: center;
+  }
+} 
 
 /*--------------------------------------------------------------
 # Resume
