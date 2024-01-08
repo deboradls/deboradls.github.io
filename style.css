@@ -228,7 +228,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("assets/img/debora-hero.png") top right no-repeat;
+  background: url("assets/img/assetsimg_MG_2403.jpg (2).png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -355,7 +355,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #FF69B4; /*tracinho que fica abxixo dos nomes*/
+  background: #FF69B4; /*tracinho que fica abaixo dos nomes*/
   bottom: 0;
   left: calc(50% - 20px);
 }
