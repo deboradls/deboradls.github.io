@@ -450,8 +450,9 @@ section {
   margin-bottom: 10px;
 }
 
-.description{
+.description {
   margin-bottom: 0px;
+  text-align: justify;
 }
 
 .resume .resume-item ul {
@@ -478,12 +479,10 @@ section {
   position: relative;
   border-left: 2px solid #ff69b4;
   align-items: center;
-gap: 10px;
-
-
+  gap: 10px;
 }
 
-.resume-item-grid:before {
+.resume-item-grid:before { /*bolinha*/
   content: "";
   position: absolute;
   width: 16px;
@@ -500,14 +499,11 @@ gap: 10px;
   display: flex;
   align-items: center;
   gap: 25px;
-  margin-bottom: 20px;
-  
+  margin-bottom: 5px;
 }
 
 .resume-item-grid img {
   width: 30px;
-  /* margin-right: 40px;
-  margin-bottom: 40px; */
 }
 
 /*--------------------------------------------------------------
