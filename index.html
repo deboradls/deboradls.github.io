@@ -27,19 +27,21 @@
 
   <!-- Template Main CSS File --> <!--conecta com o css-->
   <link href="style.css" rel="stylesheet">
+  <script src="js.js" defer></script>
 </head>
 
 <body>
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About me</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Curriculum</span></a>
+        <li onclick="toggleDarkTheme()"><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Curriculum</span></a>
         <li><a href="#projects" class="nav-link scrollto"><i class='bx bx-code-alt'></i> <span>Projects</span></a>
         </li>
       </ul>
@@ -312,8 +314,12 @@
   <!--End Footer -->
 
   <div id="preloader"></div> <!--botão para subir-->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <div id="toggle-dark-theme-container" onclick="toggleDarkTheme()">
+    <i class="bi bi-moon" id="toggle-dark-theme"></i>
+  </div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
